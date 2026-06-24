@@ -160,5 +160,5 @@ parsefloat().-
 
 analiza un argumento (si es necesario, lo convierte en una cadena) y devuelve un numero de coma flotante.
 
-hot termine dia 1 y aprendi git y github
+
 
