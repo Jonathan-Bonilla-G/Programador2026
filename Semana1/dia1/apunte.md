@@ -90,4 +90,75 @@ una constante no puede cambiar el valor atraves de la asignacion o volver a decl
 
 no se puede declarar una constante con el mismo nombre que una funcion o una variable en el mismo ambito.
 
-TIPO
+TIPOS DE DATOS
+
+Se definen siete tipos de datos que son primitivos.
+1.- booleano true y false(verdadero y falso)
+
+2.-null valor nulo 
+
+3.- undefined propiedad de alto valor cuyo valor no esta definido
+
+4.- number numero entero o un numero con una como flotante. ejemplo 43 o 3.14
+
+5.- bigint un numero entero con precision arbitraria. ejemplo 900719925470992n
+
+6.- String una secuencia de caracteres que presentan un valor de texto. por ejemplo "hola"
+
+7 .- symbol tipo de dato cuyas instancias son unicas e inmutables
+
+OBJECT
+
+aunque estos tipos de datos son una cantidad relativqamente pequeña, permite realizar funciones utiles con tus aplicaciones. los otros elementos fundamentales en el lenguaje son los objetos y las funcions.Se puede pensar en objetos como contenedores con nombre para los valores, y las funciones como procedimientos que puedes programar en tu aplicacion.
+
+CONVERSION DE TIPOS DE DATOS.
+
+JavaScript es un lenguaje tipado dinamicamente. esto significa que no tienes que especificar el tipo de dato de una variable cuando la declaras. tambuen significa que los tipo s de datos se convierten automaticamente segun sea necesario durante la ejecucion del script
+
+ejemplo
+
+var answer=42;
+
+answer= "gracias por todo el pescado";
+
+Debido a que javascrip tipifica dinamicamente, esta asignacion no genera un mensaje de error
+
+NUMEROS Y EL OPERADOR '+'
+
+En expreciones que involucran valores numerico y de cadena con el operacor ´+´ , javascript comvierte los valores numericos en cadenas. por ejemplo, la consideran las af declaraciondx.
+
+convertir texto a numeros
+
+en el caso que un valor representado un numero en memodia como hat texto,  gay metodos para la conversacions
+
+parseInt();
+
+parseFloat();
+
+parseint.-
+
+parseIntI(String, base);
+
+
+cadena Una cadena que representa el valor que se decea convertir
+
+base.- un entero                                                                        parseint es una funcion de alto nivel y no esta aciociado a ningun objeto
+
+si parse int encuentra un caracter que no es un numeral de la base especifica, lo ignora a el y a todos los caracteres 
+
+si no se especifica la base o se especifica como 0, java asume lo sig
+
+- si el parametro cadena comienza por 0x la base es 16 (hexadecimal)
+
+s-i en el  parametro encuentra cadenas pomencara por "0" la base es esta caracteristica esta desaconsejado
+
+-si el parametro cadena comienen por cualquiere otro valors, la base es 10 [decila[]]
+
+si no se puede convertir regresa NaN
+
+parsefloat().-
+
+analiza un argumento (si es necesario, lo convierte en una cadena) y devuelve un numero de coma flotante.
+
+hot termine dia 1 y aprendi git y github
+
