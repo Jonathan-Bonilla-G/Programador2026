@@ -154,5 +154,69 @@ if (!passwordCorrecta) {
     console.log("Contraseña incorrecta");
 }
 
+switch
+
+    una instruccion swithc permite que un programa evalue una exprecion e intente hacer coincidir el valor de la expresion con una etiqueta case.
+
+    si la encuentra, el programa ejecuta la declaracion asociada
+
+    sirve para comparar una misma variable contra diferentes valores
+
+    en lugar de escribir mucho if y else if, puedes escribir un codigo mas limpio
+
+sintaxis
+
+switch(variable){
+    case valor1;
+        //codigo
+        break;
+    case valor2;
+        //codigo
+        break;
+    default;
+        codigo si no coicide ningun caso    
+
+}
+
+se evalua de la sig manera
+
+    el programa primero busca una clausula case con una etiqueta que coincioda con el valor de expresion y luego transfiere el control a esa clausula, ejecutando las declaraciones asociadas
+
+    si no se encuentra una etiqueta coincidente, el programa busca la clausula opcional defeult
+
+        si se encuentra una clausula default, el programa transfiere el control a esa clausula, ejecutando las declaraciones asociadas
+
+        si no se encuentra una clausula default, el programa reanuda la ejecucion en la declaracion que sigue el final de switch
+
+break
+     
+     la declaracion opcional break asociada con cada clausula case asegura que el programa salga de switch una ves que ejecuta la instruccion coincidente, y luego continue la ejecucion en la declaracion que sigue switch. si se omite break, el programa continua la ejecucion dentro de la instuccion
+
+    ejemplo1
+
+let dia = 3;
+
+switch (dia) {
+    case 1:
+        console.log("Lunes");
+        break;
+
+    case 2:
+        console.log("Martes");
+        break;
+
+    case 3:
+        console.log("Miércoles");
+        break;
+
+    default:
+        console.log("Día no válido");
+}
+
+if se una cuando comparas condiciones
+
+switch cuando comparas una sola variable contra muchos valores.
+
+
 
 

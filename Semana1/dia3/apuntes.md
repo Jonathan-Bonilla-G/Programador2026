@@ -204,14 +204,3 @@ labelCancelLoops: while (true) {
   }
 }
 
-dor of crea un vucle que se repite sobre obejteos iterables  (array map setg argumentes) invocados un bucle de iteracion personalizado con declaracionesque se ejecutar
-const arr = [3, 5, 7];
-arr.foo = "hola";
-
-for (let i in arr) {
-  console.log(i); // logs "0", "1", "2", "foo"
-}
-
-for (let i of arr) {
-  console.log(i); // logs 3, 5, 7
-}
